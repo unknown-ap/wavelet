@@ -9,7 +9,10 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
             //finish this section
-        }
+            if (url.getPath().contains("/add")) {
+                
+            }
+            return "";
     }
 }
 
