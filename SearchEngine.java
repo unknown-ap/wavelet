@@ -10,7 +10,9 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
             //finish this section
             if (url.getPath().contains("/add")) {
-                
+                String[] parameters = url.getQuery().split("="); 
+                    //num += Integer.parseInt(parameters[1]);
+                    //return String.format("Number increased by %s! It's now %d", parameters[1], num);
             }
             return "";
     }
